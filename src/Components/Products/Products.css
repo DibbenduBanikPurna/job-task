@@ -1,0 +1,62 @@
+/* .container {
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+} */
+.side{
+    width: 100%;
+}
+.card-container {
+    display: flex; /* Use flexbox to arrange cards in a row */
+    justify-content: space-between; /* Distribute space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+}
+
+/* Define styles for individual card */
+.card {
+    width: calc(25% - 10px); /* Calculate width to fit 4 cards in a row with margin */
+    margin-bottom: 20px; /* Add margin between rows */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Additional styles for demonstration */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+  border: 15px solid none;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  /* Bottom left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }

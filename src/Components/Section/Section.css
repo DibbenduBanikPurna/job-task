@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    background-color: #f1f1f1;
+    /* justify-content: space-between; */
+  }
+  .flex-item {
+    flex: 1; /* Each item takes equal space */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* .box{
+  float:left;
+  padding: 10px;
+  border: 1px;
+  width: 100px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+} */
