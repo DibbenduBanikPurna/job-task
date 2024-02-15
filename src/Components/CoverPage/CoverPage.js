@@ -2,6 +2,7 @@ import React from 'react'
 import './CoverPage.css'
 import Image from '../../images/picture.png'
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaPlus } from "react-icons/fa";
 function CoverPage() {
   return (
     <div class="container">
@@ -10,17 +11,17 @@ function CoverPage() {
            
 
 <ul>
-  <li>Fashion Collection  </li><span style={{float:'right'}}><MdKeyboardArrowRight/></span>
+  <li>Fashion Collection  </li><span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span>
   <br/>
-  <li>Electronics Item  </li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Home Applicances </li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Kitchen Item</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Food  </li><span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Furniture</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Gadgets</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Toys and Games</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>Health & beauty</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
-  <li>View All Categories</li> <span style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Electronics Item  </li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Home Applicances </li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Kitchen Item</li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Food  </li><span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Furniture</li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Gadgets</li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Toys and Games</li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>Health & beauty</li> <span className='s' style={{float:'right'}}><MdKeyboardArrowRight/></span><br/>
+  <li>View All Categories</li> <span className='s' style={{float:'right',color:'cyan'}}><FaPlus/></span><br/>
 </ul>
 
         </div>
@@ -28,7 +29,7 @@ function CoverPage() {
            <div className='flex'>
             <div style={{padding:'100px'}}>
             <p>Up to <span className="text">70%</span> of on black Friday</p>
-            <h1>TRENDY <span style={{color:"blue"}}>FASHION</span><br/> COLLECTION</h1>
+            <h1 style={{textAlign:'left'}}>TRENDY <span style={{color:"blue"}}>FASHION</span><br/> COLLECTION</h1>
             <button  className='btn'>Buy Now</button>
          
           

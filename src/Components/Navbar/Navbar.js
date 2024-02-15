@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { FaAngleDown } from "react-icons/fa";
 function Navbar() {
   return (
     <div>
@@ -8,10 +9,10 @@ function Navbar() {
 			<div class="logo"><a>Browse Categories</a> </div>
 			<ul>
 				<li><a>Home</a></li>
-				<li><a >Products</a></li>
-				<li><a >Categries</a></li>
-                <li><a >Pages</a></li>
-                <li><a >Campaign</a></li>
+				<li><a >Products <span style={{paddingTop:'2px'}}><FaAngleDown/></span> </a>  </li>
+				<li><a >Categries <span style={{paddingTop:'2px'}}><FaAngleDown/></span></a></li>
+                <li><a >Pages <span style={{paddingTop:'2px'}}><FaAngleDown/></span></a></li>
+                <li><a >Campaign </a></li>
                 <li><a >Offer</a></li>
                 <li><a >Blog</a></li>
                 <li><a >Review</a></li>

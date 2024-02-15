@@ -1,8 +1,10 @@
 import React from 'react'
 import  './Section.css'
 import { CiLock } from "react-icons/ci";
+import { FaArrowLeft,FaArrowRight } from "react-icons/fa6";
 function Section() {
   return (
+    <>
     <div class="flex-container">
    <div class="flex-item">
         
@@ -50,7 +52,10 @@ function Section() {
     </div>
    
     </div>
+   
 </div>
+<h4 style={{marginLeft:'195px'}}>  Featured Item <span style={{float:'right'}}> <FaArrowLeft/> <span style={{color:'cyan'}}><FaArrowRight/></span>  </span> </h4>
+</>
   )
 }
 
