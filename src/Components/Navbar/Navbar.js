@@ -4,6 +4,20 @@ import { FaAngleDown } from "react-icons/fa";
 function Navbar() {
   return (
     <div>
+       {/* <div class="top-navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="bottom-navbar">
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div> */}
         <nav class="navbar">
 		<div class="navdiv">
 			<div class="logo"><a>Browse Categories</a> </div>

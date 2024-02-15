@@ -8,8 +8,8 @@ import TopSection from '../../Components/TopSection/TopSection'
 function Home() {
   return (
     <div>
-      {/* <TopSection/> */}
-        <Navbar/>
+      <TopSection/>
+        {/* <Navbar/> */}
         <CoverPage/>
         <Section/>
         <Products/>

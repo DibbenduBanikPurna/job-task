@@ -16,3 +16,38 @@ li{
 li a{
     color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
 }
+
+
+/* body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  .top-navbar{
+    background-color: white;
+    color: black;
+  }
+ .bottom-navbar {
+    background-color:blue;
+  }
+  
+  .top-navbar ul, .bottom-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .top-navbar ul li, .bottom-navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .top-navbar ul li a, .bottom-navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .top-navbar ul li a:hover, .bottom-navbar ul li a:hover {
+    background-color: #555;
+  } */
