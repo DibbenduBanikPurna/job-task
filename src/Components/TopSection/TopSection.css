@@ -116,7 +116,17 @@ li a{
 
 }
 
-.fix{
+.cart{
     position: relative;
+}
+
+.fix{
+    position: absolute;
+    background: blue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    top: -30%;
+
     
 }
